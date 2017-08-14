@@ -12,14 +12,16 @@ namespace ConsoleGraphics
 {
     class Program
     {
+        //Jogo desenvolvido de forma procedural, interagindo via console e com Windows Grphics para a emulação gráfica
         static void Main(string[] args)
         {
+            //A Task que irá controlar a execução do jogo
             game:
             {
-
+                //Irá esconder o cursor e criar uma console windows configurado de acordo com o jogo necessita
                 Console.CursorVisible = (false);
                 Console.Title = "Snaaaaake!";
-                
+
 
                 Console.SetWindowSize(56, 38);
 
@@ -27,7 +29,7 @@ namespace ConsoleGraphics
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.Clear();
-                
+
                 ConsoleColor bgColor = Console.BackgroundColor;
                 ConsoleColor fgColor = Console.ForegroundColor;
                 int delay = 100;
@@ -226,7 +228,7 @@ namespace ConsoleGraphics
                 Console.Beep(932, 260);
 
                 Console.Beep(784, 260);
-               
+
 
                 Console.Beep(2093, 200);
 
@@ -242,7 +244,7 @@ namespace ConsoleGraphics
                 */
 
                 Console.Beep(831, 250);
-                
+
 
                 Console.Beep(785, 250);
 
